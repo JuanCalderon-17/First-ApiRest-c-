@@ -1,0 +1,6 @@
+@mandrilAPI_HostAddress = http://localhost:5141
+
+GET {{mandrilAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "v9qZjWIxEExRt4uF3tN7mNT9MlfAfYpU8qEIW3jltuM=",
+  "Source": "mandrilAPI",
+  "BasePath": "_content/mandrilAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
