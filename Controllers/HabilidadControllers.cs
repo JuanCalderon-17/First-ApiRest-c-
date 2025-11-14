@@ -24,6 +24,7 @@ public class HabilidadControllers : ControllerBase
         return Ok(mandril.Habilidades);
     }
     
+    
     [HttpGet("{habilidadId}")]
     public ActionResult<Habilidad> GetHabilidad(int mandrilId, int habilidadId)
     {
@@ -66,6 +67,7 @@ public class HabilidadControllers : ControllerBase
             habilidadNueva
             );
 
+
     }
     [HttpPut]
     public ActionResult<Habilidad> PutHabilidad(int mandrilId, int habilidadId, HabilidadInsert habilidadInsert)  
@@ -88,6 +90,7 @@ public class HabilidadControllers : ControllerBase
         habilidadExistente.Potencia = habilidadInsert.Potencia;
         return NoContent();
     }
+
 
     [HttpDelete("{habilidadId}")]
     public ActionResult DeleteHabilidad(int mandrilId, int habilidadId)
